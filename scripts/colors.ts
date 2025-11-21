@@ -117,23 +117,23 @@ export const WaverThemes = {
   selectionBackgroundInActive: ["#eeeeee10", "#22222210"],
 
   comment: ["#808080dd", "#aaaaaaff"],
-  string: ["#d4976c", "#a65e2b"],
-  variable: ["#e6d077", "#bda237"],
-  keyword: ["#63a6bf", "#2982a3"],
-  number: ["#4c9a91", "#2f798a"],
-  boolean: ["#4d9375", "#1e754f"],
-  operator: ["#cb7676", "#ab5959"],
-  function: ["#80a665", "#59873a"],
-  constant: ["#c99076", "#a65e2b"],
-  class: ["#6872ab", "#5a6aa6"],
-  interface: ["#5d99a9", "#2e808f"],
-  type: ["#5da994", "#2e8f82"],
-  builtin: ["#cb7676", "#ab5959"],
-  property: ["#b8a965", "#998418"],
-  namespace: ["#db889a", "#b05a78"],
+  string: ["#d4976c", "#a65e2b"], // orange
+  variable: ["#63a6bf", "#2982a3"], // blue
+  keyword: ["#d97395", "#a1385b"], // magenta
+  number: ["#63a6bf", "#2982a3"], // blue
+  boolean: ["#77934d", "#52751e"], // green
+  operator: ["#d97395", "#a1385b"], // magenta
+  function: ["#e6d077", "#bda237"], // yellow
+  constant: ["#d4976c", "#a65e2b"], // orange
+  class: ["#cb7976", "#ab5c59"], // red
+  interface: ["#cb7976", "#ab5c59"], // red
+  type: ["#cb7976", "#ab5c59"], // red
+  builtin: ["#63a6bf", "#2982a3"], // blue
+  property: ["#e6d077", "#bda237"], // yellow
+  namespace: ["#d97395", "#a1385b"], // magenta
   punctuation: ["#666666", "#999999"],
-  decorator: ["#bd8f8f", "#bd8f8f"],
-  regex: ["#c4704f", "#ab5e3f"],
+  decorator: ["#cb7976", "#ab5c59"], // red
+  regex: ["#d4976c", "#a65e2b"], // orange
 
   green: ["#77934d", "#52751e"],
   cyan: ["#5eb5b2", "#29a39f"],
