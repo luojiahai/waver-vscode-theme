@@ -566,7 +566,7 @@
         "punctuation.definition.inserted"
       ],
       "settings": {
-        "foreground": "#5fd689"
+        "foreground": "#c7e691"
       }
     },
     {
@@ -597,20 +597,20 @@
     {
       "scope": "meta.diff.header",
       "settings": {
-        "foreground": "#88a4ff"
+        "foreground": "#80daf6"
       }
     },
     {
       "scope": "meta.separator",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#88a4ff"
+        "foreground": "#80daf6"
       }
     },
     {
       "scope": "meta.output",
       "settings": {
-        "foreground": "#88a4ff"
+        "foreground": "#80daf6"
       }
     },
     {

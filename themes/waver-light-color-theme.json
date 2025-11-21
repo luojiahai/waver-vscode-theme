@@ -162,8 +162,8 @@
     "editorBracketHighlight.foreground5": "#cca000",
     "editorBracketHighlight.foreground6": "#0087bd",
     "debugToolBar.background": "#ffffff",
-    "editor.stackFrameHighlightBackground": "#ffeec9",
-    "editor.focusedStackFrameHighlightBackground": "#ffdb93",
+    "editor.stackFrameHighlightBackground": "#fffadf",
+    "editor.focusedStackFrameHighlightBackground": "#fff5bf",
     "peekViewEditor.background": "#ffffff",
     "peekViewResult.background": "#ffffff",
     "settings.headerForeground": "#393a34",
@@ -564,7 +564,7 @@
         "punctuation.definition.inserted"
       ],
       "settings": {
-        "foreground": "#089043"
+        "foreground": "#66b105"
       }
     },
     {
@@ -595,20 +595,20 @@
     {
       "scope": "meta.diff.header",
       "settings": {
-        "foreground": "#3752c8"
+        "foreground": "#008ac5"
       }
     },
     {
       "scope": "meta.separator",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#3752c8"
+        "foreground": "#008ac5"
       }
     },
     {
       "scope": "meta.output",
       "settings": {
-        "foreground": "#3752c8"
+        "foreground": "#008ac5"
       }
     },
     {
