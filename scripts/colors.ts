@@ -101,7 +101,7 @@ export const colors = {
 
 // [dark, light]
 export const WaverThemes = {
-  primary: ["#4d9375", "#1c6b48"],
+  primary: ["#30c0c0", "#008080"],
 
   foreground: ["#dbd7caee", "#393a34"],
   activeForeground: ["#bfbaaa", "#4e4f47"],
@@ -116,17 +116,6 @@ export const WaverThemes = {
   selectionBackground: ["#eeeeee18", "#22222218"],
   selectionBackgroundActive: ["#eeeeee18", "#22222218"],
   selectionBackgroundInActive: ["#eeeeee10", "#22222210"],
-
-  // soft overrides
-  softBackground: ["#222", "#f1f0e9"],
-  softActiveBackground: ["#292929", "#e7e5db"],
-  softBorder: ["#252525", "#e7e5db"],
-
-  // black overrides
-  blackForeground: "#dbd7cacc",
-  blackBackground: "#000",
-  blackActiveBackground: "#121212",
-  blackPunctuation: "#444444",
 
   comment: ["#758575dd", "#a0ada0"],
   string: ["#c98a7d", "#b56959"],
@@ -148,11 +137,11 @@ export const WaverThemes = {
   regex: ["#c4704f", "#ab5e3f"],
 
   // colors
-  green: ["#4d9375", "#1e754f"],
-  cyan: ["#5eaab5", "#2993a3"],
-  blue: ["#6394bf", "#296aa3"],
-  red: ["#cb7676", "#ab5959"],
-  orange: ["#d4976c", "#a65e2b"],
-  yellow: ["#e6cc77", "#bda437"],
-  magenta: ["#d9739f", "#a13865"],
+  green: ["#2ac864", "#1fa251"],
+  cyan: ["#14c4bf", "#03a29f"],
+  blue: ["#6188ff", "#4b6bd4"],
+  red: ["#f85a54", "#d1403e"],
+  orange: ["#ff7f24", "#d66011"],
+  yellow: ["#ffb027", "#db8700"],
+  magenta: ["#ee5ddb", "#cb41bb"],
 } satisfies Record<string, [string, string] | string>;

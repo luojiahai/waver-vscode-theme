@@ -3,8 +3,6 @@ import { colors, WaverThemes } from "./colors";
 export interface GetThemeOptions {
   color: "light" | "dark";
   name: string;
-  soft?: boolean;
-  black?: boolean;
 }
 
 function toArray<T>(array: T | T[]): T[] {
@@ -26,28 +24,12 @@ function getColors(style: "light" | "dark"): typeof colors {
   }
 }
 
-function capitalize(str: string) {
-  return str.charAt(0).toUpperCase() + str.slice(1);
-}
-
-export function createThemeHelpers({
-  color,
-  soft = false,
-  black = false,
-}: GetThemeOptions) {
+export function createThemeHelpers({ color }: GetThemeOptions) {
   const pick = (options: { light?: string; dark?: string }) => options[color];
 
   const v = (key: keyof typeof WaverThemes, op = "") => {
-    let obj = black
-      ? WaverThemes[`black${capitalize(key)}` as keyof typeof WaverThemes] ||
-        WaverThemes[key]
-      : soft
-      ? WaverThemes[`soft${capitalize(key)}` as keyof typeof WaverThemes] ||
-        WaverThemes[key]
-      : WaverThemes[key];
-
+    let obj = WaverThemes[key];
     if (typeof obj === "string") obj = [obj, obj];
-
     return pick({ light: obj[1] + op, dark: obj[0] + op });
   };
 
