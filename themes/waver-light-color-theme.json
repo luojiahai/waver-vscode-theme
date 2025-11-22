@@ -96,7 +96,7 @@
     "breadcrumb.foreground": "#9499A0",
     "breadcrumb.focusForeground": "#393a34",
     "breadcrumb.background": "#f7f7f7",
-    "breadcrumb.activeSelectionForeground": "#22222218",
+    "breadcrumb.activeSelectionForeground": "#22222224",
     "breadcrumbPicker.background": "#ffffff",
     "editor.foreground": "#393a34",
     "editor.background": "#ffffff",
@@ -108,9 +108,9 @@
     "editorWhitespace.foreground": "#00000015",
     "editor.findMatchBackground": "#e6cc7744",
     "editor.findMatchHighlightBackground": "#e6cc7766",
-    "editor.inactiveSelectionBackground": "#22222210",
-    "editor.selectionBackground": "#22222218",
-    "editor.selectionHighlightBackground": "#22222210",
+    "editor.inactiveSelectionBackground": "#22222216",
+    "editor.selectionBackground": "#22222224",
+    "editor.selectionHighlightBackground": "#22222216",
     "editor.wordHighlightBackground": "#1c6b4805",
     "editor.wordHighlightStrongBackground": "#1c6b4810",
     "editorBracketMatch.background": "#1c6b4820",
@@ -128,7 +128,7 @@
     "panelTitle.inactiveForeground": "#9499A0",
     "panelInput.border": "#E3E5E7",
     "terminal.foreground": "#393a34",
-    "terminal.selectionBackground": "#22222218",
+    "terminal.selectionBackground": "#22222224",
     "terminal.ansiBrightBlack": "#aaaaaa",
     "terminal.ansiBrightBlue": "#485892",
     "terminal.ansiBrightCyan": "#0F5858",
@@ -137,7 +137,7 @@
     "terminal.ansiBrightRed": "#903E3E",
     "terminal.ansiBrightWhite": "#dddddd",
     "terminal.ansiBrightYellow": "#A8701B",
-    "terminal.ansiBlack": "#121212",
+    "terminal.ansiBlack": "#0f0f0f",
     "terminal.ansiBlue": "#485892",
     "terminal.ansiCyan": "#0F5858",
     "terminal.ansiGreen": "#176135",
@@ -246,7 +246,7 @@
         "entity.name"
       ],
       "settings": {
-        "foreground": "#836915"
+        "foreground": "#A8701B"
       }
     },
     {
@@ -267,7 +267,7 @@
     {
       "scope": "entity.name.function",
       "settings": {
-        "foreground": "#836915"
+        "foreground": "#A8701B"
       }
     },
     {
@@ -388,7 +388,7 @@
         "meta.var.expr.ts"
       ],
       "settings": {
-        "foreground": "#903E3E"
+        "foreground": "#974A1A"
       }
     },
     {
@@ -665,7 +665,7 @@
         "entity.other.attribute-name.html.vue"
       ],
       "settings": {
-        "foreground": "#836915"
+        "foreground": "#A8701B"
       }
     },
     {
