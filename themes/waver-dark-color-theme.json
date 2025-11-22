@@ -155,11 +155,11 @@
     "editorGutter.modifiedBackground": "#5E71AD",
     "editorGutter.addedBackground": "#2C7647",
     "editorGutter.deletedBackground": "#A65653",
-    "editorBracketHighlight.foreground1": "#1E7270",
-    "editorBracketHighlight.foreground2": "#2C7647",
-    "editorBracketHighlight.foreground3": "#AD6734",
-    "editorBracketHighlight.foreground4": "#9C5693",
-    "editorBracketHighlight.foreground5": "#AD8236",
+    "editorBracketHighlight.foreground1": "#AD8236",
+    "editorBracketHighlight.foreground2": "#9C5693",
+    "editorBracketHighlight.foreground3": "#5E71AD",
+    "editorBracketHighlight.foreground4": "#AD8236",
+    "editorBracketHighlight.foreground5": "#9C5693",
     "editorBracketHighlight.foreground6": "#5E71AD",
     "debugToolBar.background": "#0f0f0f",
     "editor.stackFrameHighlightBackground": "#a707",
@@ -292,7 +292,7 @@
         "constant.language.import-export-all.ts"
       ],
       "settings": {
-        "foreground": "#5E71AD"
+        "foreground": "#8566AD"
       }
     },
     {
@@ -489,7 +489,7 @@
         "keyword.other.unit"
       ],
       "settings": {
-        "foreground": "#5E71AD"
+        "foreground": "#8566AD"
       }
     },
     {

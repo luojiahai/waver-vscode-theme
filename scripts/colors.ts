@@ -10,8 +10,8 @@ import {
   lightblue,
   cyan,
   magenta,
-  lightyellow,
   lightgreen,
+  lightyellow,
 } from "waver-color";
 
 export const colors = {
@@ -56,7 +56,7 @@ export const WaverThemes = {
   class: [green(4).saturated(), green(6).saturated()],
   interface: [green(4).saturated(), green(6).saturated()],
   type: [green(4).saturated(), green(6).saturated()],
-  builtin: [blue().saturated(), blue(6).saturated()],
+  builtin: [purple().saturated(), purple(6).saturated()],
   property: [pink().saturated(), pink(6).saturated()],
   namespace: [pink().saturated(), pink(6).saturated()],
   punctuation: [gray(4).hex(), gray(6).hex()],

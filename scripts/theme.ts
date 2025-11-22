@@ -238,11 +238,11 @@ export default function getTheme(options: GetThemeOptions) {
       "editorGutter.addedBackground": v("green"),
       "editorGutter.deletedBackground": v("red"),
 
-      "editorBracketHighlight.foreground1": v("cyan"),
-      "editorBracketHighlight.foreground2": v("green"),
-      "editorBracketHighlight.foreground3": v("orange"),
-      "editorBracketHighlight.foreground4": v("magenta"),
-      "editorBracketHighlight.foreground5": v("yellow"),
+      "editorBracketHighlight.foreground1": v("yellow"),
+      "editorBracketHighlight.foreground2": v("magenta"),
+      "editorBracketHighlight.foreground3": v("blue"),
+      "editorBracketHighlight.foreground4": v("yellow"),
+      "editorBracketHighlight.foreground5": v("magenta"),
       "editorBracketHighlight.foreground6": v("blue"),
 
       "debugToolBar.background": background,
