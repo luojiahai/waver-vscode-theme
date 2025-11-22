@@ -356,7 +356,7 @@
         "invalid.deprecated.entity.other.attribute-name.html"
       ],
       "settings": {
-        "foreground": "#2A829F"
+        "foreground": "#5692A4"
       }
     },
     {
@@ -365,7 +365,7 @@
         "identifier"
       ],
       "settings": {
-        "foreground": "#2A829F"
+        "foreground": "#5692A4"
       }
     },
     {

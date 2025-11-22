@@ -46,7 +46,7 @@ export const WaverThemes = {
 
   comment: ["#808080dd", "#aaaaaaff"],
   string: [orange.get("3_s").hex(), orange.get("6_s").hex()],
-  variable: [lightblue.get("4_s").hex(), lightblue.get("6_s").hex()],
+  variable: [lightblue.get("3_s").hex(), lightblue.get("6_s").hex()],
   keyword: [pink.get("4_s").hex(), pink.get("6_s").hex()],
   number: [lightgreen.get("3_s").hex(), lightgreen.get("6_s").hex()],
   boolean: [cyan.get("4_s").hex(), cyan.get("6_s").hex()],
