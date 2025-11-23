@@ -17,14 +17,14 @@ import {
 export const colors = {
   black: "#111",
   white: "#fff",
-  gray: gray.getAll().map((c) => c.hex()),
-  blue: blue.getAll().map((c) => c.hex()),
-  green: green.getAll().map((c) => c.hex()),
-  yellow: yellow.getAll().map((c) => c.hex()),
-  orange: orange.getAll().map((c) => c.hex()),
-  red: red.getAll().map((c) => c.hex()),
-  purple: purple.getAll().map((c) => c.hex()),
-  pink: pink.getAll().map((c) => c.hex()),
+  gray: gray.colors().map((c) => c.hex()),
+  blue: blue.colors().map((c) => c.hex()),
+  green: green.colors().map((c) => c.hex()),
+  yellow: yellow.colors().map((c) => c.hex()),
+  orange: orange.colors().map((c) => c.hex()),
+  red: red.colors().map((c) => c.hex()),
+  purple: purple.colors().map((c) => c.hex()),
+  pink: pink.colors().map((c) => c.hex()),
 };
 
 export const WaverThemes = {
@@ -63,11 +63,11 @@ export const WaverThemes = {
   decorator: [red.get("4_s").hex(), red.get("6_s").hex()],
   regex: [red.get("4_s").hex(), red.get("6_s").hex()],
 
-  green: [green.get("5_s").hex(), green.get("6_s").hex()],
-  cyan: [cyan.get("5_s").hex(), cyan.get("6_s").hex()],
-  blue: [blue.get("5_s").hex(), blue.get("6_s").hex()],
-  red: [red.get("5_s").hex(), red.get("6_s").hex()],
-  orange: [orange.get("5_s").hex(), orange.get("6_s").hex()],
-  yellow: [yellow.get("5_s").hex(), yellow.get("6_s").hex()],
-  magenta: [magenta.get("5_s").hex(), magenta.get("6_s").hex()],
+  green: [lightgreen.get("4_s").hex(), green.get("6_s").hex()],
+  cyan: [cyan.get("4_s").hex(), cyan.get("6_s").hex()],
+  blue: [lightblue.get("4_s").hex(), lightblue.get("6_s").hex()],
+  red: [red.get("4_s").hex(), red.get("6_s").hex()],
+  orange: [orange.get("4_s").hex(), orange.get("6_s").hex()],
+  yellow: [lightyellow.get("4_s").hex(), yellow.get("6_s").hex()],
+  magenta: [pink.get("4_s").hex(), pink.get("6_s").hex()],
 } satisfies Record<string, [string, string] | string>;

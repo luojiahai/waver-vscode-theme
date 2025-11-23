@@ -3,7 +3,7 @@
   "name": "vscode-theme-waver",
   "displayName": "Waver VSCode Theme",
   "description": "todo",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "packageManager": "pnpm@10.20.0",
   "repository": {
     "type": "git",
@@ -56,7 +56,7 @@
     "tsx": "^4.20.6",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.47.0",
-    "waver-color": "^0.0.13"
+    "waver-color": "^0.0.14"
   },
   "preview": true
 }
