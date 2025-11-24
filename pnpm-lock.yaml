@@ -39,8 +39,8 @@ importers:
         specifier: ^8.47.0
         version: 8.47.0(eslint@9.39.1)(typescript@5.9.3)
       waver-color:
-        specifier: ^0.0.15
-        version: 0.0.15
+        specifier: ^0.0.17
+        version: 0.0.17
 
 packages:
 
@@ -1689,8 +1689,8 @@ packages:
     resolution: {integrity: sha512-Ck0EJbAGxHwprkzFO966t4/5QkRuzh+/I1RxhLgUKKwEn+Cd8NwM60mE3AqBZg5gYODoXW0EFsQvbZjRlvdqbg==}
     engines: {node: '>=4'}
 
-  waver-color@0.0.15:
-    resolution: {integrity: sha512-tDRcniH2WXT9108RWYcaa47Rhaf6GjqvWAHPidjrhUnStOckfK625RWsXngRoJqHaA4vEpZCKphdQvjY7NM78A==}
+  waver-color@0.0.17:
+    resolution: {integrity: sha512-zDNxfDBrij/GdtSKnTgqFrRXGVkaaaTnEox0jzUCZWDzXy1ufHI2E256JYCVaTqwOxYpTLNo6T0+ilEaLnZCNg==}
 
   whatwg-encoding@3.1.1:
     resolution: {integrity: sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==}
@@ -3546,7 +3546,7 @@ snapshots:
 
   version-range@4.15.0: {}
 
-  waver-color@0.0.15: {}
+  waver-color@0.0.17: {}
 
   whatwg-encoding@3.1.1:
     dependencies:
