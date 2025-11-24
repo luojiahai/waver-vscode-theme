@@ -26,7 +26,7 @@ export const colors = {
 };
 
 export const WaverThemes = {
-  primary: [lightblue.get("5d").hex(), lightblue.get("7d").hex()],
+  primary: [lightblue.get("6d").hex(), lightblue.get("7d").hex()],
   foreground: ["#ccd6dbee", "#35393b"],
   activeForeground: ["#aab8bf", "#aab8bf"],
   secondaryForeground: ["#d5dbde90", "#35393b90"],
